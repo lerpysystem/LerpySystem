@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-
+   scale=1.0">
+    <title>Lerpy - E-Learning system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks"> 
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+     <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="course.html">COURSE</a></li>
+        <li><a href="blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+  </div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+    <h1>LERPY SYSTEM</h1>
+    <p>
+        In this website you will learn more about language that you are using
+        to your school like<br> HTML,Java, Python, Netbeans and Visual Studio and you are good to go.
+    </p>
+   
+</div>
+
+
+    </section>
+    <!-----course----->
+
+<section class="course">
+<h1>Courses We Offer</h1>
+<p>Priority language</p>
+
+<div class="row">
+    <div class="course-col">
+        <img src="images/h.jpg">
+        <h3>HTML</h3>
+</div> 
+    <div class="course-col">
+        <img src="images/java.jpg">
+        <h3>JAVA</h3>
+    </div> 
+    <div class="course-col">
+        <img src="images/python.jpg">
+        <h3>PYTHON</h3>
+    </div> 
+</div> 
+</div>
+    </section>
+
+    <section>
+<!------extra course---->
+    <section class="Exto">
+    <h1>Extra Offer</h1>
+    <p> free learning language you will encounter</p>
+
+    <div class="row"> 
+        <div class="Exto-col">
+            <img src="images/netbeans.jpg">
+            <div class="layer">
+                <h3>NETBEANS</h3>
+            </div>
+        </div>
+        <div class="Exto-col">
+            <img src="images/visual.jpg">
+            <div class="layer">
+                <h3>VISUAL STUDIO</h3>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+
+    <!-----Materials----->
+    <section class="materials">
+        <h1>MATERIALS</h1>
+
+        <div class="row">
+            <div class="materials-col">
+                <img src="images/lappy.jpg">
+                <h3> Laptop </h3>
+           
+            </div>
+            <div class="materials-col">
+                <img src="images/phone.jpg">
+                <h3> Mobile Phone </h3>
+              
+            </div>
+            <div class="materials-col">
+                <img src="images/net.jpg">
+                <h3> WiFi </h3>
+                
+            </div>
+        </div>
+    </section>
+    <!----testimonials---->
+    <section class="testimonials">
+        <h1>Feedbacks</h1>
+        <p>Rates and Comments of students</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/userm.jpg">
+                <div>
+                    <p>thankyou po sa magandang web na ito
+                        maghintay ka lang 24hrs then sesend na 
+                        nila lahat ng link, videos and notes na kailangan
+                        mong malaman</p>
+                    <h3>Mark Christian</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div> 
+            <div class="testimonials-col">
+                <img src="images/userf.jpg">
+                <div>
+                    <p>Thankyou po sa magandang web na ito
+                        maghintay ka lang 24hrs then sesend na 
+                        nila lahat ng link, videos and notes na kailangan
+                        mong malaman</p>
+                    <h3>Christine Mae</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!------Call To Action----->
+
+    <section class="cta">
+        <h1>Enroll For Our Various Courses<br> Anywhere, Anytime </h1>
+    </section>
+    
+    <!------Footer----->
+    <section class="footer">
+        <h4>E-MAIL</h4>
+        <p>lerpysystem@gmail.com</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+
+
+<!------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

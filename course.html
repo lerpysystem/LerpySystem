@@ -1,0 +1,115 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-
+    scale=1.0">
+    <title> Lerpy - E-Learning system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks"> 
+<i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="course.html">COURSE</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Our Courses</h1>
+</section>
+
+<!-------Course------>
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Priority language</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>HTML</h3>
+            <p>HTML is the foundation of everything you see in a web browser, and 
+                it's used to create everything from basic web pages to complex web applications 
+                and services. HTML elements serve as the foundation for all websites. 
+                HTML allows for the embedding of images and objects, and it can be used to 
+                create interactive forms.</p>
+    </div> 
+        <div class="course-col">
+            <h3>JAVA</h3>
+            <p>Java is a widely used programming language for developing Web 
+                applications and platforms. It was created to give developers 
+                the freedom to write code that would run on any machine, regardless 
+                of architecture or platform.</p>
+        </div> 
+        <div class="course-col">
+            <h3>PYTHON</h3>
+            <p>Python is a programming language that can be used for a variety of purposes. 
+                As a result, the programming language may be used to create both desktop and 
+                web applications. Python can also be used to create complex scientific and numerical
+                 applications. Python has features that make data analysis and visualization easier.</p>
+        </div> 
+    </div> 
+    </div>
+        </section>
+    
+    <!---------extra offer--------->
+    <section class="Exto">
+        <h1>Extra Offer</h1>
+        <p> free learning language you will encounter</p>
+    
+        <div class="row"> 
+            <div class="Exto-col">
+                <img src="images/netbeans.jpg">
+                <div class="layer">
+                    <h3>NETBEANS</h3>
+                </div>
+            </div>
+            <div class="Exto-col">
+                <img src="images/visual.jpg">
+                <div class="layer">
+                    <h3>VISUAL STUDIO</h3>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+    
+
+ <!------Footer----->
+ <section class="footer">
+    <h4>E-MAIL</h4>
+    <p>lerpysystem@gmail.com</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+<!------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

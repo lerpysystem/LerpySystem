@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-
+    scale=1.0">
+    <title>Background</title>
+    <title> Lerpy - E-Learning system</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,600&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks"> 
+<i class="fa fa-times" onclick="hideMenu()"></i>
+ <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="course.html">COURSE</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>CERTIFICATE OF COURSE COMPLETION</h1>
+</section>
+<!-------- blog page ------->
+<section class="blog content">
+    
+        <div class="blog-center">
+            
+    <img src="images/cert.png">
+
+
+    <h2> CERTIFICATE OF COURSE COMPLETION</h2>
+    <p>This is to certify that</p>
+    <br>
+
+    <p>The user was given proof that 
+        he/she complete the course/s that the system provide</p>
+    </p>
+    <br>
+    <p>This certificate cannot be used on anything outside of 
+        this website. It will only prove that a person has completed 
+        the course taught in this system and has no other purpose. </p>
+
+    <div class="comment-box">
+    <h3>Leave a comment</h3>
+
+    <form class="comment-form">
+    <input type="text" placeholder="Enter Name">
+    <input type="email" placeholder="Enter Email">
+    <textarea rows= "5" placeholder= "Your comment" ></textarea>
+    <button type="submit" class="hero-btn red-btn">POST 
+    COMMENT</button>
+    </form>
+    </div>
+</div>
+
+
+    </section>
+
+
+<!------Footer----->
+<section class="footer">
+    <h4>E-MAIL</h4>
+    <p>lerpysystem@gmail.com</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+
+<!------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
